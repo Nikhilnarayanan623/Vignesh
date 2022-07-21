@@ -5,7 +5,7 @@ $(document).ready(function(){
         document.getElementById("home-icon").style.backgroundColor="red"
     })
     $("#home-icon").mouseleave(function(){
-        document.getElementById("home-icon").style.backgroundColor="rgb(64, 238, 212)"
+        document.getElementById("home-icon").style.backgroundColor="rgb(155, 155, 58)"
     })
 
 
@@ -13,7 +13,7 @@ $(document).ready(function(){
         document.getElementById("services-icon").style.backgroundColor="red"
     })
     $("#services-icon").mouseleave(function(){
-        document.getElementById("services-icon").style.backgroundColor="rgb(64, 238, 212)"
+        document.getElementById("services-icon").style.backgroundColor="rgb(155, 155, 58)"
     })
 
 
@@ -22,7 +22,7 @@ $(document).ready(function(){
     })
 
     $("#aboutMe-icon").mouseleave(function(){
-        document.getElementById("aboutMe-icon").style.backgroundColor="rgb(64, 238, 212)"
+        document.getElementById("aboutMe-icon").style.backgroundColor="rgb(155, 155, 58)"
     })
 
 
@@ -30,7 +30,7 @@ $(document).ready(function(){
         document.getElementById("contactMe-icon").style.backgroundColor="red"
     })
     $("#contactMe-icon").mouseleave(function(){
-        document.getElementById("contactMe-icon").style.backgroundColor="rgb(64, 238, 212)"
+        document.getElementById("contactMe-icon").style.backgroundColor="rgb(155, 155, 58)"
     })
 })
 
@@ -40,26 +40,26 @@ let flag=false
 
         var images1 = [], x = -1;
         images1[0] = "images/Forestcroppped.jpeg";
-        images1[1] = "images/WithCyclecropped.jpeg";
+        images1[1] = "images/WithCycle.jpeg";
         images1[2] = "images/College.jpeg";
-        images1[3] = "images/BikeCropped.jpg";
+        images1[3] = "images/SmilePortrate.jpeg";
 
         var images2 = [], y = -1;
-        images2[0] = "images/BikeCropped.jpg";
+        images2[0] = "images/SmilePortrate.jpeg";
         images2[1] = "images/Forestcroppped.jpeg";
-        images2[2] = "images/WithCyclecropped.jpeg";
+        images2[2] = "images/WithCycle.jpeg";
         images2[3] = "images/College.jpeg"
 
         var images3 = [], z = -1;
         images3[0] = "images/College.jpeg";
-        images3[1] = "images/BikeCropped.jpg";
+        images3[1] = "images/SmilePortrate.jpeg";
         images3[2] = "images/Forestcroppped.jpeg";
-        images3[3] = "images/WithCyclecropped.jpeg"
+        images3[3] = "images/WithCycle.jpeg"
 
         var images4 = [], w = -1;
-        images4[0] = "images/WithCyclecropped.jpeg";
+        images4[0] = "images/WithCycle.jpeg";
         images4[1] = "images/College.jpeg";
-        images4[2] = "images/BikeCropped.jpg";
+        images4[2] = "images/SmilePortrate.jpeg";
         images4[3] = "images/Forestcroppped.jpeg"
 
 /*
