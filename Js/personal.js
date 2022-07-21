@@ -98,17 +98,17 @@ let flag=false
         
         x = (x === images1.length - 1) ? 0 : x + 1;
              
-        document.getElementById("img2").src = images1[x];         
+        document.getElementById("img2").src = images2[x];         
               
         
         y = (y === images1.length - 1) ? 0 : y + 1;
                 
-        document.getElementById("img3").src = images2[y];
+        document.getElementById("img3").src = images3[y];
                 
                        
         z = (z === images1.length - 1) ? 0 : z + 1;
                
-        document.getElementById("img4").src = images3[z];
+        document.getElementById("img4").src = images4[z];
                 
 
                 
