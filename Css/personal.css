@@ -1,0 +1,22 @@
+.image-box{
+    
+    height: 50rem;
+}
+.nav-text{
+    height: 2.7rem;
+    
+    border-radius: 0.3rem;
+    
+}
+.nav-button{
+    font-size: 1.1rem;
+    background-color: rgb(60, 180, 180);
+   
+}
+.nav-header-button{
+    font-size: 1.23rem; width: 7rem;
+}
+.nav-text-inside{
+    color: rgb(7, 69, 123);
+    
+}
