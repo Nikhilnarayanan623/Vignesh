@@ -1,62 +1,69 @@
 $(document).ready(function(){
 
     // header icon mouse enter and leave color change
-    $("#home-icon").mouseenter(function(){
+    $("#home-icon").click(function(){
         document.getElementById("home-icon").style.backgroundColor="red"
+        document.getElementById("services-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("aboutMe-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("contactMe-icon").style.backgroundColor="rgb(155, 155, 58)"
     })
-    $("#home-icon").mouseleave(function(){
+
+
+
+    $("#services-icon").click(function(){
+        document.getElementById("services-icon").style.backgroundColor="red"
+        document.getElementById("home-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("aboutMe-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("contactMe-icon").style.backgroundColor="rgb(155, 155, 58)"
+    })
+    
+
+
+    $("#aboutMe-icon").click(function(){
+        document.getElementById("aboutMe-icon").style.backgroundColor="red"
+        
+        document.getElementById("services-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("home-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("contactMe-icon").style.backgroundColor="rgb(155, 155, 58)"
+    })
+
+    
+
+
+    
+    $("#contactMe-icon").click(function(){
+        document.getElementById("contactMe-icon").style.backgroundColor="red"
+        document.getElementById("services-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("aboutMe-icon").style.backgroundColor="rgb(155, 155, 58)"
         document.getElementById("home-icon").style.backgroundColor="rgb(155, 155, 58)"
     })
 
-
-    $("#services-icon").mouseenter(function(){
-        document.getElementById("services-icon").style.backgroundColor="red"
-    })
-    $("#services-icon").mouseleave(function(){
-        document.getElementById("services-icon").style.backgroundColor="rgb(155, 155, 58)"
-    })
-
-
-    $("#aboutMe-icon").mouseenter(function(){
-        document.getElementById("aboutMe-icon").style.backgroundColor="red"
-    })
-
-    $("#aboutMe-icon").mouseleave(function(){
-        document.getElementById("aboutMe-icon").style.backgroundColor="rgb(155, 155, 58)"
-    })
-
-
-    $("#contactMe-icon").mouseenter(function(){
-        document.getElementById("contactMe-icon").style.backgroundColor="red"
-    })
-    $("#contactMe-icon").mouseleave(function(){
-        document.getElementById("contactMe-icon").style.backgroundColor="rgb(155, 155, 58)"
-    })
+   
 })
 
 //image auto change 
 
 let flag=false
 
-        var images1 = [], x = -1;
+        var images1 = [], x = 0;
         images1[0] = "images/Forestcroppped.jpeg";
         images1[1] = "images/WithCycle.jpeg";
         images1[2] = "images/College.jpeg";
         images1[3] = "images/SmilePortrate.jpeg";
 
-        var images2 = [], y = -1;
+        var images2 = [], y = 0;
         images2[0] = "images/SmilePortrate.jpeg";
         images2[1] = "images/Forestcroppped.jpeg";
         images2[2] = "images/WithCycle.jpeg";
         images2[3] = "images/College.jpeg"
 
-        var images3 = [], z = -1;
+        var images3 = [], z = 0;
         images3[0] = "images/College.jpeg";
         images3[1] = "images/SmilePortrate.jpeg";
         images3[2] = "images/Forestcroppped.jpeg";
         images3[3] = "images/WithCycle.jpeg"
 
-        var images4 = [], w = -1;
+        var images4 = [], w = 0;
         images4[0] = "images/WithCycle.jpeg";
         images4[1] = "images/College.jpeg";
         images4[2] = "images/SmilePortrate.jpeg";
@@ -112,7 +119,7 @@ let flag=false
                 
 
                 
-    },4000)
+    },2000)
 
 
 
