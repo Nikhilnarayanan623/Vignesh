@@ -1,3 +1,19 @@
+.header-text{
+    width: 120px;
+}
+.vicky{
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.vicky a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    color: crimson;
+}
+.vicky a:hover{
+    color: #fff;
+}
 
 .image-box{
     height: 50rem;
@@ -21,12 +37,19 @@
     color: crimson;
     
 }
+.bio{
+    height: 160px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bio #bio-name{
+    margin-top: 4rem;
+    color: crimson;
+    font-weight: 900;
+}
 
-.photo-scroll{
-    background: url("/images/bg-imageRow.jpg");
-
-
-    
+.photo-scroll,.footer{
+    background: url("/images/bg-imageRow.jpg"); 
 }
  
 .image-prop{
@@ -47,17 +70,17 @@
 }
 .contact-section{
     display: flex;
-    
     background-position: fixed ;
    
 }
 .contact-label{
     color: crimson;
 }
-.contact-section{
+.contact-section, .bio{
     background: url("/images/bg-contact.jpg") repeat 0 0;
 }
 .form-text-box1{
+    margin-bottom: 1rem;
     padding-left: 0.4rem;
     width: 20rem; height:3rem;
     border-radius: 0.2rem;
@@ -83,7 +106,7 @@
     color: crimson;
 }
 .footer-img{
-    width: 1.5rem;
+    width: 1.7rem;
     margin: 0.4rem;
     margin-top: 1rem;
 }

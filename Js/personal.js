@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+    //change this after workdone
+    $("#submit").click(function(){
+        alert("Submission is under woking \n  It will be ready soon\nuse another contacting options")
+    })
+
     // header icon mouse enter and leave color change
     $("#home-icon").click(function(){
         document.getElementById("home-icon").style.backgroundColor="aliceblue"
