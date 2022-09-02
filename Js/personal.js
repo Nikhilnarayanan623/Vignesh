@@ -2,29 +2,29 @@ $(document).ready(function(){
 
     // header icon mouse enter and leave color change
     $("#home-icon").click(function(){
-        document.getElementById("home-icon").style.backgroundColor="red"
-        document.getElementById("services-icon").style.backgroundColor="rgb(155, 155, 58)"
-        document.getElementById("aboutMe-icon").style.backgroundColor="rgb(155, 155, 58)"
-        document.getElementById("contactMe-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("home-icon").style.backgroundColor="aliceblue"
+        document.getElementById("services-icon").style.backgroundColor="crimson"
+        document.getElementById("aboutMe-icon").style.backgroundColor="crimson"
+        document.getElementById("contactMe-icon").style.backgroundColor="crimson"
     })
 
 
 
     $("#services-icon").click(function(){
-        document.getElementById("services-icon").style.backgroundColor="red"
-        document.getElementById("home-icon").style.backgroundColor="rgb(155, 155, 58)"
-        document.getElementById("aboutMe-icon").style.backgroundColor="rgb(155, 155, 58)"
-        document.getElementById("contactMe-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("services-icon").style.backgroundColor="aliceblue"
+        document.getElementById("home-icon").style.backgroundColor="crimson"
+        document.getElementById("aboutMe-icon").style.backgroundColor="crimson"
+        document.getElementById("contactMe-icon").style.backgroundColor="crimson"
     })
     
 
 
     $("#aboutMe-icon").click(function(){
-        document.getElementById("aboutMe-icon").style.backgroundColor="red"
+        document.getElementById("aboutMe-icon").style.backgroundColor="aliceblue"
         
-        document.getElementById("services-icon").style.backgroundColor="rgb(155, 155, 58)"
-        document.getElementById("home-icon").style.backgroundColor="rgb(155, 155, 58)"
-        document.getElementById("contactMe-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("services-icon").style.backgroundColor="crimson"
+        document.getElementById("home-icon").style.backgroundColor="crimson"
+        document.getElementById("contactMe-icon").style.backgroundColor="crimson"
     })
 
     
@@ -32,10 +32,10 @@ $(document).ready(function(){
 
     
     $("#contactMe-icon").click(function(){
-        document.getElementById("contactMe-icon").style.backgroundColor="red"
-        document.getElementById("services-icon").style.backgroundColor="rgb(155, 155, 58)"
-        document.getElementById("aboutMe-icon").style.backgroundColor="rgb(155, 155, 58)"
-        document.getElementById("home-icon").style.backgroundColor="rgb(155, 155, 58)"
+        document.getElementById("contactMe-icon").style.backgroundColor="aliceblue"
+        document.getElementById("services-icon").style.backgroundColor="crimson"
+        document.getElementById("aboutMe-icon").style.backgroundColor="crimson"
+        document.getElementById("home-icon").style.backgroundColor="crimson"
     })
 
    

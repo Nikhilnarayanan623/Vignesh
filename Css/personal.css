@@ -1,5 +1,5 @@
+
 .image-box{
-    
     height: 50rem;
 }
 .nav-text{
@@ -10,52 +10,77 @@
 }
 .nav-button{
     font-size: 1.1rem;
-    background-color: rgb(155, 155, 58);
+    background-color:crimson;
+    color: black;
    
 }
 .nav-header-button{
     font-size: 1.23rem; width: 7rem;
 }
 .nav-text-inside{
-    color: rgb(7, 69, 123);
+    color: crimson;
     
 }
 
 .photo-scroll{
+    background: url("/images/bg-imageRow.jpg");
+
+
     
 }
-
-.image-box{
-    width: 10rem;
+ 
+.image-prop{
+    height: 30rem;
+    border-radius: 0.7rem;
    
 }
 
-.border1{
+.border1, .photo-scroll{
     /*margin-top: 1rem;*/
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 
     border-top: inset 4px rgb(253, 253, 253);
     border-bottom: outset 4px rgb(253, 253, 253);
     border-left: inset 4px rgb(253, 253, 253);
     border-right: outset 4px rgb(253, 253, 253);
 }
+.contact-section{
+    display: flex;
+    
+    background-position: fixed ;
+   
+}
+.contact-label{
+    color: crimson;
+}
+.contact-section{
+    background: url("/images/bg-contact.jpg") repeat 0 0;
+}
 .form-text-box1{
+    padding-left: 0.4rem;
     width: 20rem; height:3rem;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
+    border: 0.1px solid;
 }
 .form-text-box2{
     width: 22rem; height:15rem;
     border-radius: 0.5rem;
     resize: none;  
+    padding: 0.5rem 0 0 0.5rem;
 }
 .submit-button{
-    background-color: cornflowerblue; 
+    background-color:crimson; 
+    color: white;
     margin-left: 3rem; 
     margin-top: -2rem; 
     margin-bottom: 1rem;
     width: 5.5rem; 
     height:2.5rem;
+}
+.nav-button:hover, .submit-button:hover{
+    background-color: aliceblue;
+    color: crimson;
 }
 .footer-img{
     width: 1.5rem;
